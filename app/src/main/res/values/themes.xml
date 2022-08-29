@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OpenToday" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#07B301</item>
+        <item name="colorPrimaryVariant">#008B13</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#33B500</item>
+        <item name="colorSecondaryVariant">#247001</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+        <!-- About -->
+        <item name="aboutapp_title_color">#1C7B8E</item>
+        <item name="aboutapp_text_color_title">#000000</item>
+        <item name="aboutapp_text_color_value">#676767</item>
+
+        <!-- Main Activity -->
+        <item name="main_currentDate_color">#008466</item>
+        <item name="disableBatteryOptimization_backgroundColor">#FF5F6A</item>
+        <item name="disableBatteryOptimization_textColor">#000000</item>
+        <item name="updateAvailable_backgroundColor">#FF5F6A</item>
+        <item name="updateAvailable_textColor">#000000</item>
+
+        <!-- Items -->
+        <item name="item_backgroundColor">#803D3D3D</item>
+        <item name="item_textColor">#2B2B2B</item>
+
+        <item name="item_text_background_color">#803D3D3D</item>
+        <item name="item_text_textColor">#2B2B2B</item>
+
+        <item name="item_checkbox_backgroundColor">#803D3D3D</item>
+        <item name="item_checkbox_textColor">#2B2B2B</item>
+
+        <item name="item_checkbox_day_repeatable_backgroundColor">#803D3D3D</item>
+        <item name="item_checkbox_day_repeatable_textColor">#2B2B2B</item>
+
+        <item name="item_cycleList_backgroundColor">#803D3D3D</item>
+        <item name="item_cycleList_textColor">#2B2B2B</item>
+
+        <item name="item_counter_backgroundColor">#803D3D3D</item>
+        <item name="item_counter_textColor">#2B2B2B</item>
+
+        <item name="item_group_backgroundColor">#803D3D3D</item>
+        <item name="item_group_textColor">#2B2B2B</item>
+
+        <item name="item_filterGroup_backgroundColor">#803D3D3D</item>
+        <item name="item_filterGroup_textColor">#2B2B2B</item>
+
+        <item name="item_selectionForegroundColor">#66ff7722</item>
+        <item name="toolbar_background">#8C000000</item>
+        <item name="toolbar_more_items_item_textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.OpenToday.ItemEditModule" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:background">@drawable/shape</item>
+        <item name="android:backgroundTint">#4C858585</item>
+        <item name="android:padding">3sp</item>
+    </style>
+
+
+    <style name="Theme.OpenToday.Toolbar">
+
+    </style>
+
+    <style name="Theme.OpenToday.Toolbar.Button" parent="Widget.AppCompat.ButtonBar">
+        <item name="android:backgroundTint">#585858</item>
+        <item name="android:textColor">#F5F5F5</item>
+    </style>
+
+    <style name="Theme.OpenToday.Toolbar.Button.Selected" parent="Theme.OpenToday.Toolbar.Button">
+        <item name="android:backgroundTint">#2046B8</item>
+        <item name="android:textColor">#F5F5F5</item>
+    </style>
+</resources>
