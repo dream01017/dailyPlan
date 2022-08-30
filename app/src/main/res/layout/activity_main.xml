@@ -1,61 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.activity.MainActivity"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <LinearLayout
-        android:id="@+id/disable_battery_optimization_warning"
-        android:visibility="gone"
-        tools:visibility="visible"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5sp"
-        android:layout_marginStart="2sp"
-        android:layout_marginEnd="2sp"
-        android:background="@drawable/shape"
-        android:padding="5sp"
-        android:backgroundTint="?attr/disableBatteryOptimization_backgroundColor"
-        android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/disable_battery_optimization_warning"
-            android:textSize="20sp"
-            android:textColor="?attr/disableBatteryOptimization_textColor"
-            app:drawableLeftCompat="@android:drawable/ic_lock_idle_low_battery" />
-    </LinearLayout>
+        <FrameLayout
+            android:id="@+id/frameContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
 
-    <LinearLayout
-        android:id="@+id/update_available"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5sp"
-        android:layout_marginStart="2sp"
-        android:layout_marginEnd="2sp"
-        android:background="@drawable/shape"
-        android:backgroundTint="?attr/updateAvailable_backgroundColor"
-        android:orientation="vertical"
-        android:padding="5sp"
-        android:visibility="gone"
-        tools:visibility="visible">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/update_available"
-            android:textColor="?attr/updateAvailable_textColor"
-            android:textSize="20sp"
-            app:drawableLeftCompat="@drawable/update_available" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/items_editor"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical" />
-</LinearLayout>
+</RelativeLayout>
